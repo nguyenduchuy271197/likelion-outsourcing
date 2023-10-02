@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section>
+    <section className="dark:bg-[url('/background/hero-bg.avif')] bg-cover">
       <div className="container">
         <div className="h-[calc(100vh-var(--navbar-height))] flex items-center justify-center">
           <div>
@@ -17,8 +17,9 @@ export default function Hero() {
                 </Button>
               </div>
               <div className="space-y-8">
-                <Title variant="h1" className="text-gradient">
-                  Say goodbye to slow, clunky containers and VMs
+                <Title variant="h1">
+                  Say goodbye to slow, clunky <br />
+                  <span className="text-gradient">containers and VMs</span>
                 </Title>
                 <p className="text-foreground/80 text-xl">
                   OrbStack is the fast, light, and easy way to run Docker

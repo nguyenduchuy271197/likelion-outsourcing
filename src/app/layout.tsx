@@ -1,6 +1,8 @@
 import "./globals.css";
 import "swiper/css";
-import 'swiper/css/pagination';
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
 import type { Metadata } from "next";
 import { Quicksand } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";

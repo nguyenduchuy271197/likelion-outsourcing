@@ -32,7 +32,7 @@ const routes = [
 
 export default function Navbar() {
   return (
-    <header className="border-b">
+    <header>
       <div className="container">
         <div className="h-[var(--navbar-height)] flex items-center justify-between">
           <Logo />
@@ -51,10 +51,10 @@ export default function Navbar() {
             </div>
             <div className="flex items-center ml-8 gap-4">
               <Button className="hidden sm:flex">Tham gia ngay</Button>
-              <ModeToggle className="hidden sm:flex" />
-              <Button variant="ghost" size="icon" className="md:hidden">
+              {/* <ModeToggle className="hidden sm:flex" /> */}
+              {/* <Button variant="ghost" size="icon" className="md:hidden">
                 <AlignRight className="w-6 h-6" />
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>
