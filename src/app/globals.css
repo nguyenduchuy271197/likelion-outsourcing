@@ -99,3 +99,7 @@
 .swiper-pagination-bullets {
   position: absolute !important;
 }
+
+.swiper-slide {
+  padding-bottom: 4rem !important;
+}
