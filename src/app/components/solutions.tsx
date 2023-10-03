@@ -60,7 +60,7 @@ function SolutionCard({ title, description, icon: Icon }: SolutionProps) {
 
 export default function Solutions() {
   return (
-    <section className="scroll-mt-12" id="solutions">
+    <section id="solutions">
       <div className="container">
         <div className="space-y-16">
           <div className="space-y-4 max-w-3xl mx-auto">

@@ -23,7 +23,10 @@ const elementors = [
 
 export default function Elementors() {
   return (
-    <section className="dark:bg-[url('/background/elementor-bg.avif')] bg-cover">
+    <section
+      className="dark:bg-[url('/background/elementor-bg.avif')] bg-cover"
+      id="about"
+    >
       <div className="container">
         <div className="flex flex-col gap-16 lg:gap-8 lg:flex-row lg:items-center lg:[&>div]:flex-1 py-28">
           <div className="space-y-12 text-center lg:text-left">

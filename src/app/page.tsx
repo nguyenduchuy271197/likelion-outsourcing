@@ -9,7 +9,7 @@ import Solutions from "./components/solutions";
 
 export default function HomePage() {
   return (
-    <div className="space-y-28 sm:space-y-40">
+    <div className="space-y-28 sm:space-y-40 [&_section]:scroll-mt-12">
       <div className="space-y-20">
         <Hero />
         <Introduction />

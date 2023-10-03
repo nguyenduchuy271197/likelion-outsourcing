@@ -14,19 +14,19 @@ import Logo from "./logo";
 
 const routes = [
   {
-    id: HOME_PATH,
-    path: HOME_PATH,
-    label: HOME_LABEL,
+    id: "solutions",
+    path: "#solutions",
+    label: "Our Solutions",
   },
   {
-    id: HOME_PATH,
-    path: ABOUT_PATH,
-    label: ABOUT_LABEL,
+    id: "about",
+    path: "#about",
+    label: "About Us",
   },
   {
-    id: HOME_PATH,
-    path: CONTACT_PATH,
-    label: CONTACT_LABEL,
+    id: "process",
+    path: "#process",
+    label: "Our Process",
   },
 ];
 

@@ -52,7 +52,7 @@ const steps = [
 
 export default function Process() {
   return (
-    <section>
+    <section id="process">
       <div className="container">
         <div className="space-y-16">
           <Title variant="h2">Our Process</Title>
